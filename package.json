@@ -1,0 +1,12 @@
+{
+  "scripts": {
+      "build": "browserify --debug src.js -t [ babelify --global ] --outfile main.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babelify": "^10.0.0",
+    "dom-to-svg": "0.0.3"
+  }
+}
