@@ -12,5 +12,5 @@ function ready(fn) {
 ready(() => {
     let element = document.querySelector('#root')
     const svgDocument = domtosvg.elementToSVG(element);
-    const svgString = domtosvg.formatXML(svgDocument)
+    console.log(svgDocument)
 })
